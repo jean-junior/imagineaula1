@@ -1,0 +1,94 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .contactinfo__container {
+  background-color: #000;
+  margin: 0;
+} */
+
+.contact h3 {
+  margin: 0;
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact__info h3:nth-of-type(2) {
+  margin-top: 3.75rem;
+}
+
+.contact__info__container,
+.contact__form__container {
+  width: 540px;
+}
+
+.contact__info__container {
+  float: right;
+  padding-right: 0.125rem;
+}
+
+.contact__info,
+.contact__form {
+  padding: 4rem 0;
+}
+
+.contact__form__container {
+  padding-left: 7.125rem;
+}
+
+.contact__form {
+  background-color: #000;
+  color: #fff;
+  padding-left: 4rem;
+}
+
+.contact__info i {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+}
+
+.contact__info span {
+  display: grid;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.6875rem;
+  font-family: "roboto";
+}
+
+.contact__info span,
+.contact__form label,
+.contact__form input {
+  display: block;
+}
+
+.contact__form button {
+  float: center;
+}
+
+.contact__form label {
+  font-weight: 700;
+}
+
+.contact__form input {
+  background-color: unset;
+  border: unset;
+  border-bottom: 0.06rem solid #fff;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  width: 60%;
+}
+
+.contact__form input:focus {
+  outline: unset;
+}
+
+.maps,
+.maps iframe {
+  height: 36.5rem;
+}

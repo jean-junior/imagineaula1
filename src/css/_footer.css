@@ -1,0 +1,102 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  padding: 5.25rem 0;
+}
+
+.footer-logo_studion {
+  justify-self: start;
+  margin: 0;
+}
+
+.footer_form {
+  justify-self: start;
+  display: grid;
+  place-items: start;
+  grid-template-columns: 7.5rem auto;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.footer_form fieldset {
+  position: relative;
+  border: unset;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.footer_form label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer_form input {
+  width: 100%;
+  background-color: var(--color-primary);
+  border: unset;
+  height: 2.875rem;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer_form input::placeholder {
+  color: #000;
+}
+
+.footer_form input:focus {
+  outline-color: #fff;
+}
+
+.footer__social {
+  justify-self: end;
+}
+
+.footer__social a {
+  color: #fff;
+}
+
+.footer__social .fa-twitter {
+  color: #000;
+}
+
+.footer_form button {
+  position: absolute;
+  border: unset;
+  height: 2.875rem;
+  right: 0;
+  top: 0;
+}
+
+.footer_form button:hover,
+.footer_form button:active,
+.footer_form button:focus {
+  color: var(--color-primary);
+  box-shadow: 0 0 16px rgba(255, 196, 0, 0.61);
+  box-shadow: inset 0 0 16px rgb(255, 196, 0);
+  background-color: rgb(97, 93, 93);
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.footer hr {
+  border-color: #fff4;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}

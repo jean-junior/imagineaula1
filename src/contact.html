@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar__home">
+    <nav class="navbar">
       <div class="container navbar__container">
         <h1 class="logo-studion">
           <a href="index.html">
@@ -38,7 +38,7 @@
             </a>
           </li>
           <li>
-            <a href="contact.html">
+            <a class="active" href="contact.html">
               Contatos
             </a>
           </li>
@@ -46,80 +46,70 @@
       </div>
     </nav>
 
-    <header>
-      <div id="slider">
-        <div class="slide">
-          <img
-            class="slide__background-image"
-            src="./images/banner.jpg"
-            alt="Studion banner"
-          />
-          <div class="slide__copy">
-            <h6 style="margin: 0;">
-              <span class="copy--primary"> Próximo evento</span> - Dia 25 de
-              setembro às 19h
-            </h6>
-            <h2><span class="copy--primary">Creative </span>Minds</h2>
-            <button class="btn btn--slide">Saiba Mais</button>
-          </div>
+    <header></header>
+    <div class="hero">
+      <img
+        src="./images/contact.jpg"
+        alt="Contact Studion"
+        class="hero__background"
+      />
+      <div class="container hero__container">
+        <div class="hero__copy">
+          <h2>.contato</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non
+            deserunt magnam neque dignissimos iste debitis est minus placeat
+            asperiores harum atque ipsa fugiat, ratione, mollitia soluta quos
+            laudantium impedit?
+          </p>
         </div>
       </div>
-    </header>
+    </div>
 
     <main>
-      <section id="counter">
-        <ul class="container counter__container">
-          <li>
-            <h3>
-              + de 500 <br />
-              <small>eventos realizados</small>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              + de 1.000.000 <br />
-              <small>ingressos vendidos</small>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              + de 300 <br />
-              <small>empresas atendidas</small>
-            </h3>
-          </li>
-        </ul>
-      </section>
+      <section class="contact">
+        <section class="contact__info">
+          <div class="contact__info__container">
+            <h3>Liga pra gente</h3>
+            <span>
+              <i class="fas fa-phone fa-flip-horizontal"> </i>
+              +55 (48) 3223 - 5769
+            </span>
+            <span>
+              <i class="fab fa-whatsapp"> </i>
+              +55 (48) 99943 - 7777
+            </span>
 
-      <section class="container institutional">
-        <img
-          class="institutional__image"
-          src="./images/institutional.jpg"
-          alt="Studion Institutional"
-        />
-        <div class="institutional__copy">
-          <h6>fazemos seu evento acontecer</h6>
-          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ea
-            fuga cum voluptas maiores. Quia quaerat non est iusto fugit
-            voluptatem saepe illum, in eveniet tempora, impedit architecto quod
-            veniam!
-          </p>
-          <button class="btn btn--institutional">Saiba mais</button>
-        </div>
-      </section>
-
-      <section class="quote">
-        <div class="container quote__container">
-          <div class="quote__copy">
-            <h6>
-              você informa a tematica e nós planejamos um evento com tecnologia
-              e
-            </h6>
-            <h2><span class="copy--primary">muito+ </span>Divesrão</h2>
-            <button class="btn btn--quote">fazer cotação</button>
+            <h3>Venha conhecer nossa casa</h3>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+              Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
+            </span>
           </div>
-        </div>
+        </section>
+
+        <section class="contact__form">
+          <form class="contact__form__container" action=""></form>
+          <h3>deixe sua mensagem</h3>
+          <label for="name">Seu nome</label>
+          <input id="name" type="text" />
+          <label for="mail">Seu e-mail</label>
+          <input id="mail" type="email" />
+          <label for="message">Sua mensagem</label>
+          <input id="message" type="text" />
+          <button class="btn btn--contact" type="submit">Enviar</button>
+        </section>
+      </section>
+
+      <section class="maps">
+        <iframe
+          width="100%"
+          src="https://maps.google.com/maps?q=university%20of%20san%20frRua%20Miguel%20Daux%2C%20129%20-%20Coqueiros%20Florian%C3%B3polis%20%2F%20SCancisco&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
       </section>
     </main>
 

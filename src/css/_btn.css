@@ -1,0 +1,56 @@
+.btn {
+  padding: 0.8rem 2.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 10rem;
+  color: var(--color-primary);
+  background: unset;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s all ease;
+  letter-spacing: 0.05rem;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  letter-spacing: 0.11rem;
+  box-shadow: 0 1rem 1rem rgba(255, 196, 0, 0.61);
+  color: #333;
+}
+
+.btn--institutional,
+.btn--contact {
+  border: 0.125rem solid var(--color-primary);
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+.btn--institutional:hover {
+  background-color: unset;
+  color: var(--color-copy);
+  box-shadow: 0 1rem 1rem #0006;
+}
+
+.btn--contact:hover {
+  background-color: unset;
+  color: #fff;
+  box-shadow: 0 1rem 1rem rgba(255, 196, 0, 0.61);
+}
+
+.btn--quote {
+  border: 0.125rem solid var(--color-copy);
+  color: var(--color-copy);
+  margin-top: 2rem;
+  background: unset;
+}
+
+.btn--quote:hover,
+.btn--quote:active,
+.btn--quote:focus {
+  box-shadow: 0 1rem 1rem #0006;
+  border-color: var(--color-copy);
+}
